@@ -89,7 +89,6 @@ public class FragmentWithArray extends Fragment {
                         break;
 
                     case R.id.add:
-                        Log.d("Mylogs","Dias");
 //                        if(location!=null && et.getText().toString().trim().length() != 0
 //                                && calendar.getText().toString().trim().length() != 0){
                         ((MainActivity)getActivity()).refresh();
